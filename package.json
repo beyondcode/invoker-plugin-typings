@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "main": "",
-  "name": "@invoker/plugin-typings",
+  "name": "@beyondcode/invoker-plugin-typings",
   "scripts": {
     "test": "tsc --noEmit --strict --typeRoots '[]' index.d.ts"
   },
