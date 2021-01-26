@@ -1,3 +1,5 @@
+import VueRouter from 'vue-router';
+
 declare global {
 
     const invoker: InvokerAPI;
@@ -8,6 +10,8 @@ declare global {
         readonly navigation: NavigationAPI;
 
         readonly modelDetails: ModelDetailsAPI;
+
+        readonly router: VueRouter;
 
         executePhar: (parameters: object) => Promise<any>;
     }
