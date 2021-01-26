@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "Beyond Code"
+  },
+  "bugs": {
+    "url": "https://github.com/beyondcode/invoker-plugin-typings/issues"
+  },
+  "description": "Typings for the Invoker Plugin API",
+  "homepage": "https://github.com/beyondcode/invoker-plugin-typings",
+  "keywords": [
+    "invoker",
+    "plugin",
+    "typings"
+  ],
+  "license": "MIT",
+  "main": "",
+  "name": "@invoker/plugin-typings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beyondcode/invoker-plugin-typings.git"
+  },
+  "scripts": {
+    "test": "tsc --noEmit --strict --typeRoots '[]' index.d.ts"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/electron": "^1.6.10"
+  }
+}
