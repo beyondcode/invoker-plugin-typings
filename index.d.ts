@@ -1,5 +1,3 @@
-import { MenuItem } from "electron";
-
 declare global {
 
     const invoker: InvokerAPI;
