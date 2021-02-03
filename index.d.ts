@@ -116,6 +116,11 @@ declare global {
          * Returns the currently active project.
          */
         getProject(): Project;
+
+        /**
+         * Returns the model definition for the given model class.
+         */
+        getModelDefinition(request: { model: string; }): Promise<{ data: ModelDefinition }>;
     }
 
     interface Project {
