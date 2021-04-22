@@ -121,6 +121,11 @@ declare global {
          * Returns the model definition for the given model class.
          */
         getModelDefinition(request: { model: string; }): Promise<{ data: ModelDefinition }>;
+
+        /**
+         * Contains the path to the configured PHP executable.
+         */
+        phpBinary: String;
     }
 
     interface Project {
