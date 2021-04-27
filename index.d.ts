@@ -125,7 +125,12 @@ declare global {
         /**
          * Contains the path to the configured PHP executable.
          */
-        phpBinary: String;
+         phpBinary: String;
+
+        /**
+         * Contains the path to the configured PHP executable via SSH.
+         */
+         remotePhpBinary: String;
     }
 
     interface Project {
